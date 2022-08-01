@@ -1,0 +1,58 @@
+.join {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../../components/Join/globe.png");
+  background-size: 100%;
+
+  &-container {
+    background-color: rgba($color: #fff, $alpha: 0.7);
+    border-radius: 25px;
+    width: 80%;
+    padding: 3rem;
+    margin: 0 auto;
+    z-index: 99;
+    a {
+      background-color: $primary-blue;
+      color: white;
+      display: block;
+      text-align: center;
+      width: 15%;
+      margin: 0 auto;
+      border-radius: 5px;
+      padding: 1rem 2rem;
+      margin-top: 1rem 0;
+      margin: 0 auto;
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: -5rem;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1200.06px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .join-container {
+    a {
+      width: 30%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .join-container {
+    height: 370px;
+  }
+}
+
+@media (max-width: 576px) {
+}
