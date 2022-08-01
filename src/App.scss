@@ -1,0 +1,19 @@
+body,
+html {
+  font-family: proxima-nova, sans-serif;
+  background: linear-gradient(
+    174deg,
+    rgba(217, 217, 217, 1) 0%,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 1) 56%,
+    rgba(255, 0, 0, 0.8) 100%
+  );
+  scroll-behavior: smooth;
+}
+
+.App {
+  background-image: url("./components/Industries/globe.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 40rem;
+}

@@ -1,0 +1,48 @@
+.player-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  position: relative;
+
+  iframe,
+  video {
+    border-radius: 10px;
+  }
+
+  h3 {
+    position: absolute;
+    color: $primary-red;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    bottom: -5rem;
+    right: 6rem;
+    text-align: left;
+    font-weight: 700;
+    pointer-events: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+  }
+}
+
+@media (min-width: 1200.06px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  .player-wrapper {
+    h3 {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+}

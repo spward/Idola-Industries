@@ -1,0 +1,23 @@
+.nav {
+  height: 6rem;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-logo {
+    width: 6rem;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &-item {
+    padding: 0 1rem;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    &:hover {
+      color: $primary-red;
+    }
+  }
+}

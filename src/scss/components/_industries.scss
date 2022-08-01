@@ -1,0 +1,84 @@
+#industries {
+  position: relative;
+  padding: 10rem 0;
+  background: url("../../components/Industries/backgroundtl.png"),
+    url("../../components/Industries/backgroundbr.png");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+}
+
+.industries {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  width: 40%;
+}
+.industry {
+  margin: 2rem;
+  position: relative;
+  overflow: hidden;
+
+  h4 {
+    color: white;
+    position: absolute;
+    font-weight: 700;
+    font-size: 1.4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s ease;
+    visibility: hidden;
+  }
+
+  img {
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  &:hover h4 {
+    opacity: 1;
+    padding: 1rem 2rem;
+    background-color: rgba($primary-red, 0.95);
+    background-size: cover;
+    visibility: visible;
+  }
+}
+
+@media (min-width: 1200.06px) {
+}
+
+@media (max-width: 1200px) {
+  h3 {
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  .industries {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .industry {
+    img {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  h3 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+}

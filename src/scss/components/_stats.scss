@@ -1,0 +1,23 @@
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  &-holder {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 8rem 0;
+    padding: 2rem;
+    min-width: 150px;
+
+    &:not(:first-child) {
+      border-left: 1px solid black;
+    }
+
+    span {
+      color: $primary-red;
+      font-weight: 700;
+      font-size: 32px;
+    }
+  }
+}
