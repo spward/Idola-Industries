@@ -18,7 +18,7 @@
       color: white;
       display: block;
       text-align: center;
-      width: 15%;
+      width: 20%;
       margin: 0 auto;
       border-radius: 5px;
       padding: 1rem 2rem;
@@ -43,7 +43,7 @@
 @media (max-width: 992px) {
   .join-container {
     a {
-      width: 30%;
+      width: 60%;
     }
   }
 }
@@ -55,4 +55,12 @@
 }
 
 @media (max-width: 576px) {
+  .join-container {
+    h2 {
+      font-size: 2.5rem;
+    }
+    a {
+      width: 100%;
+    }
+  }
 }
